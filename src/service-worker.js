@@ -8,7 +8,7 @@ self.analytics.trackingId = 'UA-77119321-2';
 
 self.addEventListener('push', function(event) {
   var notificationOptions = {
-    body: 'Thanks for sending this push msg.',
+    body: 'HI CHRIS',
     icon: './images/icon-192x192.png',
     tag: 'simple-push-demo-notification',
     data: {
